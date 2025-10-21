@@ -24,7 +24,7 @@ const breadcrumbs: BreadcrumbItem[] = [
 ];
 
 onMounted(() => {
-    console.log(hasBusiness());
+    // console.log(hasBusiness());
 });
 
 const hasBusiness = () => {

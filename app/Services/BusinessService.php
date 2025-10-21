@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Services;
+use App\Models\Business;
 
 class BusinessService
 {
@@ -11,16 +12,17 @@ class BusinessService
 
     public function updateOrCreate($data, $id = null)
     {
-        $newTeam = getBusiness::updateOrCreate(
+        $business = Business::updateOrCreate(
             ['id' => $id],
             [
+                'user_id' => auth()->user()->id,
                 'name' => $data['name'],
                 'email' => $data['email'],
-                'company_size' => $data['company_size'],
+                'team_size' => $data['team_size'],
                 'description' => $data['description'],
             ]
         );
 
-        return $newTeam;
+        return $business;
     }
 }

@@ -5,30 +5,42 @@ import { Drawer, DrawerClose, DrawerContent, DrawerDescription, DrawerFooter, Dr
 import { Input } from "@/components/ui/input"
 import { Building2 } from 'lucide-vue-next';
 
-import { router, useForm } from '@inertiajs/vue3'
+import { useForm, usePage } from '@inertiajs/vue3'
 import BusinessController from '@/actions/App/Http/Controllers/BusinessController';
 import { email } from '@/routes/password';
 import InputError from '@/components/InputError.vue';
-
-
 import { toast } from 'vue-sonner'
-// import { Button } from '@/components/ui/button'
+import { ref } from 'vue';
 
-// const { toast } = useToast()
-
+const isDrawerOpen = ref(false);
+const page = usePage();
 const newBusiness = useForm({
     name: '',
     email: '',
-    company_size: '',
+    team_size: '',
     description: '',
 })
 
 const createBusiness = () => {
+
     newBusiness.submit(BusinessController.store(), {
         onSuccess: () => {
             console.log(newBusiness);
         },
-        onFinish: () => newBusiness.reset(),
+        // onFinish: () => newBusiness.reset(),
+        onFinish: () => {
+            const success = page.props.flash?.success
+            if (success) {
+                toast('Business Created', {
+                    description: success,
+                    action: {
+                        label: 'Continue',
+                        onClick: () => console.log('business created'),
+                    }
+                })
+            }
+            // isDrawerOpen.value = false
+        }
     })
 }
 
@@ -38,19 +50,6 @@ const createBusiness = () => {
 
 <template>
     <div class="">
-        <Button variant="outline" @click="() => {
-            toast('Event has been created', {
-                description: 'Sunday, December 03, 2023 at 9:00 AM',
-                action: {
-                    label: 'Undo',
-                    onClick: () => console.log('Undo'),
-                },
-            })
-        }">
-            Add to calendar
-        </Button>
-        sdfsdf
-        <hr>
         <div class="h-screen flex items-center justify-center">
             <Empty>
                 <EmptyHeader>
@@ -70,7 +69,7 @@ const createBusiness = () => {
                 </EmptyHeader>
                 <EmptyContent>
 
-                    <Drawer>
+                    <Drawer v-model:open="isDrawerOpen">
                         <DrawerTrigger class="hover:cursor-pointer">
                             <Button>
                                 Create a team
@@ -79,8 +78,6 @@ const createBusiness = () => {
 
                         <DrawerContent>
                             <div class="mx-auto w-full max-w-xl p-4">
-
-
                                 <DrawerHeader class="p-0 pb-4 py-2">
                                     <DrawerTitle>Move Goal</DrawerTitle>
                                     <DrawerDescription>Set your daily activity goal.</DrawerDescription>
@@ -102,16 +99,16 @@ const createBusiness = () => {
                                             </div>
                                         </div>
                                         <div class="grid gap-2">
-                                            <select id="company_size" v-model="newBusiness.company_size" class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex h-9 w-full min-w-0 rounded-md border bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm
+                                            <select id="team_size" v-model="newBusiness.team_size" class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex h-9 w-full min-w-0 rounded-md border bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm
                         focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px]
                         dark:aria-invalid:ring-destructive/20 aria-invalid:border-destructive">
                                                 <option value="" class="tex-xs text-muted-foreground" selected disabled>
                                                     Team Size</option>
-                                                <option value="hotel">0-10</option>
-                                                <option value="store">10-50</option>
-                                                <option value="store">50-100</option>
+                                                <option value="0-10">0-10</option>
+                                                <option value="10-50">10-50</option>
+                                                <option value="50-100">50-100</option>
                                             </select>
-                                            <InputError :message="newBusiness.errors.company_size" />
+                                            <InputError :message="newBusiness.errors.team_size" />
                                             <div>
 
                                                 <textarea v-model="newBusiness.description"

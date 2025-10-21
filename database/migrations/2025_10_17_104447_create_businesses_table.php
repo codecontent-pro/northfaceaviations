@@ -16,11 +16,11 @@ return new class extends Migration
             $table->foreignId('user_id')->constrained('users')->cascadeOnDelete();
             $table->string('name');
             $table->string('description')->nullable();
+            $table->string('team_size');
             $table->string('logo')->nullable();
             $table->string('website')->nullable();
             $table->string('phone')->nullable();
             $table->string('email')->nullable();
-            $table->string('staff_size');
             $table->timestamps();
         });
     }

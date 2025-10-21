@@ -24,7 +24,7 @@ class BusinessControllerRequest extends FormRequest
         return [
             'name' => 'required|string',
             'email' => 'required|string',
-            'company_size' => 'required|string',
+            'team_size' => 'required|string',
             'description' => 'required|string',
         ];
     }

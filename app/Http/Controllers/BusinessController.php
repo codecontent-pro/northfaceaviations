@@ -20,6 +20,6 @@ class BusinessController extends Controller
     public function store(BusinessControllerRequest $request, BusinessService $businessService, $id = null){
 
         $newBusiness = $businessService->updateOrCreate($request, $id);
-        return redirect()->back()->with('message', 'Business created successfully');
+        return redirect()->back()->with('success', 'Business created successfully');
     }
 }
