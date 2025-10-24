@@ -2,15 +2,16 @@
 
 use App\Http\Controllers\TeamController;
 use Illuminate\Support\Facades\Route;
-use Inertia\Inertia;
 
-Route::get('/', function () {
-    return Inertia::render('Welcome');
-})->name('home');
 
-Route::get('dashboard', function () {
-    return Inertia::render('Dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/', [App\Http\Controllers\PagesController::class, 'home'])->name('home');
+Route::get('/about', [App\Http\Controllers\PagesController::class, 'about'])->name('about');
+Route::get('/contact', [App\Http\Controllers\PagesController::class, 'contact'])->name('contact');
+Route::get('/service', [App\Http\Controllers\PagesController::class, 'service'])->name('service');
+
+// Route::get('dashboard', function () {
+//     return Inertia::render('Dashboard');
+// })->middleware(['auth', 'verified'])->name('dashboard');
 
 
 require __DIR__.'/settings.php';
