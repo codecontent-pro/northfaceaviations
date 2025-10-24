@@ -9,7 +9,7 @@ import TrustSection from '@/components/blocks/pages/home/TrustSection.vue';
     <PagesLayout>
         <HeroSection />
         <WhyChooseUs />
-        <TrustSection />
+        <!-- <TrustSection /> -->
     </PagesLayout>
 </template>
 
