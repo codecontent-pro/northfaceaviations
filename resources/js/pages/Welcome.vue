@@ -2,12 +2,14 @@
 import PagesLayout from '@/layouts/PagesLayout.vue';
 import HeroSection from '@/components/blocks/pages/home/WelcomeHero.vue';
 import WhyChooseUs from '@/components/blocks/pages/home/WhyChooseUs.vue';
+import TrustSection from '@/components/blocks/pages/home/TrustSection.vue';
 </script>
 
 <template>
     <PagesLayout>
         <HeroSection />
         <WhyChooseUs />
+        <TrustSection />
     </PagesLayout>
 </template>
 
