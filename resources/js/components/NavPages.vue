@@ -1,16 +1,33 @@
+<script setup>
+import { ref } from "vue";
+import { Link, usePage } from '@inertiajs/vue3';
+import PagesController from "@/actions/App/Http/Controllers/PagesController";
+
+const isOpen = ref(false);
+
+function toggleMenu() {
+    isOpen.value = !isOpen.value;
+}
+
+function bookCall() {
+    window.open("https://calendly.com/yourclient/air-ambulance-call", "_blank");
+}
+</script>
+
 <template>
     <nav class="fixed top-0 left-0 w-full z-50 bg-black/50 backdrop-blur-lg border-b border-white/10">
         <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
             <!-- Logo -->
-            <a href="/" class="text-2xl font-extrabold tracking-tight text-white">
-                Air<span class="text-red-500">Rescue</span>
-            </a>
+            <Link :href="PagesController.home()" class="text-2xl font-extrabold tracking-tight text-white">
+            Air<span class="text-red-500">Rescue</span>
+            </Link>
 
             <!-- Desktop Links -->
             <div class="hidden md:flex items-center space-x-10">
-                <a href="#about" class="text-gray-300 hover:text-white transition">About</a>
-                <a href="#services" class="text-gray-300 hover:text-white transition">Services</a>
-                <a href="#contact" class="text-gray-300 hover:text-white transition">Contact</a>
+                <Link :href="PagesController.about()" class="text-gray-300 hover:text-white transition">About</Link>
+                <Link :href="PagesController.service()" class="text-gray-300 hover:text-white transition">Services
+                </Link>
+                <Link :href="PagesController.contact()" class="text-gray-300 hover:text-white transition">Contact</Link>
                 <button
                     class="bg-red-600 hover:bg-red-700 transition px-5 py-2 rounded-full font-semibold text-white text-sm"
                     @click="bookCall">
@@ -35,9 +52,10 @@
         <transition name="fade">
             <div v-if="isOpen"
                 class="md:hidden bg-black/90 backdrop-blur-md border-t border-white/10 flex flex-col items-center space-y-4 py-6">
-                <a href="#about" class="text-gray-300 hover:text-white transition">About</a>
-                <a href="#services" class="text-gray-300 hover:text-white transition">Services</a>
-                <a href="#contact" class="text-gray-300 hover:text-white transition">Contact</a>
+                <Link :href="PagesController.about()" class="text-gray-300 hover:text-white transition">About</Link>
+                <Link :href="PagesController.service()" class="text-gray-300 hover:text-white transition">Services
+                </Link>
+                <Link :href="PagesController.contact()" class="text-gray-300 hover:text-white transition">Contact</Link>
                 <button
                     class="bg-red-600 hover:bg-red-700 transition px-6 py-2 rounded-full font-semibold text-white text-sm"
                     @click="bookCall">
@@ -47,20 +65,6 @@
         </transition>
     </nav>
 </template>
-
-<script setup>
-import { ref } from "vue";
-
-const isOpen = ref(false);
-
-function toggleMenu() {
-    isOpen.value = !isOpen.value;
-}
-
-function bookCall() {
-    window.open("https://calendly.com/yourclient/air-ambulance-call", "_blank");
-}
-</script>
 
 <style scoped>
 .fade-enter-active,

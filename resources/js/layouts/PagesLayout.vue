@@ -2,6 +2,7 @@
 import AppLayout from '@/layouts/app/AppSidebarLayout.vue';
 import type { BreadcrumbItemType } from '@/types';
 import NavPages from '@/components/NavPages.vue';
+import NavPagesFooter from '@/components/NavPagesFooter.vue';
 
 interface Props {
     breadcrumbs?: BreadcrumbItemType[];
@@ -20,5 +21,6 @@ const bookCall = () => {
     <NavPages />
     <div :breadcrumbs="breadcrumbs">
         <slot />
+        <NavPagesFooter />
     </div>
 </template>
