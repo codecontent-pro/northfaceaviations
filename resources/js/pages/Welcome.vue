@@ -4,6 +4,7 @@ import HeroSection from '@/components/blocks/pages/home/WelcomeHero.vue';
 import WhyChooseUs from '@/components/blocks/pages/home/WhyChooseUs.vue';
 import TrustSection from '@/components/blocks/pages/home/TrustSection.vue';
 import HowItWorks from '@/components/blocks/pages/home/HowItWorks.vue';
+import Testimonial from '@/components/blocks/pages/home/Testimonial.vue';
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import HowItWorks from '@/components/blocks/pages/home/HowItWorks.vue';
         <WhyChooseUs />
         <TrustSection />
         <HowItWorks />
+        <Testimonial />
     </PagesLayout>
 </template>
 
