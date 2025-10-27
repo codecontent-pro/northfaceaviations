@@ -5,7 +5,7 @@
             <!-- Left Content -->
             <div class="space-y-8">
                 <h2 class="text-3xl md:text-5xl font-extrabold leading-tight">
-                    Why Choose <span class="text-red-500">AirRescue?</span>
+                    Why Choose <span class="text-red-500">NorthStarAviation?</span>
                 </h2>
 
                 <p class="text-gray-400 text-lg max-w-md">

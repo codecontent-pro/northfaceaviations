@@ -14,7 +14,7 @@
         <div class="max-w-4xl mx-auto grid grid-cols-1 gap-8 relative z-10">
             <!-- Heading -->
             <h1 class="text-5xl md:text-6xl font-extrabold leading-tight">
-                Contact <span class="text-red-600">Northface Aviation</span>
+                Contact <span class="text-red-600">Northstar Aviation</span>
             </h1>
 
             <!-- Subtitle -->
