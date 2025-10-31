@@ -5,7 +5,7 @@
             <!-- Left Content -->
             <div class="space-y-8">
                 <h2 class="text-3xl md:text-5xl font-extrabold leading-tight">
-                    Why Choose <span class="text-red-500">NorthStarAviation?</span>
+                    Why Choose <span class="text-orange-300">{{ $page.props.appName }}?</span>
                 </h2>
 
                 <p class="text-gray-400 text-lg max-w-md">
@@ -17,7 +17,7 @@
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4">
                     <div class="flex items-start space-x-4">
                         <div class="p-3 bg-white/10 rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500" fill="none"
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-orange-400" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -32,7 +32,7 @@
 
                     <div class="flex items-start space-x-4">
                         <div class="p-3 bg-white/10 rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500" fill="none"
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-orange-400" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M9 12l2 2 4-4m-6 6h8a2 2 0 002-2V7a2 2 0 00-2-2h-5l-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2h8z" />
@@ -46,7 +46,7 @@
 
                     <div class="flex items-start space-x-4">
                         <div class="p-3 bg-white/10 rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500" fill="none"
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-orange-400" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M3 10h11M9 21V3m0 18a9 9 0 009-9" />
@@ -61,7 +61,7 @@
 
                     <div class="flex items-start space-x-4">
                         <div class="p-3 bg-white/10 rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500" fill="none"
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-orange-400" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M12 11c0 1.104-.896 2-2 2s-2-.896-2-2 .896-2 2-2 2 .896 2 2zM22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10z" />
@@ -110,7 +110,7 @@ const FeatureItem = {
     template: `
       <div class="flex items-start space-x-4">
         <div class="p-3 bg-white/10 rounded-full">
-          <i :class="'lucide-' + icon" class="h-6 w-6 text-red-500"></i>
+          <i :class="'lucide-' + icon" class="h-6 w-6 text-orange-400"></i>
         </div>
         <div>
           <h3 class="font-semibold text-lg">{{ title }}</h3>

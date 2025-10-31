@@ -15,11 +15,11 @@ function bookCall() {
 </script>
 
 <template>
-    <nav class="fixed top-0 left-0 w-full z-50 bg-black/50 backdrop-blur-lg border-b border-white/10">
+    <nav class="fixed top-0 left-0 w-full z-50 bg-slate-950/50 backdrop-blur-lg border-b border-white/10">
         <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
             <!-- Logo -->
             <Link :href="PagesController.home()" class="text-2xl font-extrabold tracking-tight text-white">
-            NorthStar<span class="text-red-500">Aviations</span>
+            NorthStar<span class="text-orange-300">Aviations</span>
             </Link>
 
             <!-- Desktop Links -->
@@ -29,7 +29,7 @@ function bookCall() {
                 </Link>
                 <Link :href="PagesController.contact()" class="text-gray-300 hover:text-white transition">Contact</Link>
                 <button
-                    class="bg-red-600 hover:bg-red-700 transition px-5 py-2 rounded-full font-semibold text-white text-sm"
+                    class="bg-orange-400 hover:bg-orange-600 transition px-5 py-2 rounded-full font-semibold text-white text-sm"
                     @click="bookCall">
                     Book a Call
                 </button>
@@ -51,13 +51,13 @@ function bookCall() {
         <!-- Mobile Menu -->
         <transition name="fade">
             <div v-if="isOpen"
-                class="md:hidden bg-black/90 backdrop-blur-md border-t border-white/10 flex flex-col items-center space-y-4 py-6">
+                class="md:hidden bg-slate-950/90 backdrop-blur-md border-t border-white/10 flex flex-col items-center space-y-4 py-6">
                 <Link :href="PagesController.about()" class="text-gray-300 hover:text-white transition">About</Link>
                 <Link :href="PagesController.service()" class="text-gray-300 hover:text-white transition">Services
                 </Link>
                 <Link :href="PagesController.contact()" class="text-gray-300 hover:text-white transition">Contact</Link>
                 <button
-                    class="bg-red-600 hover:bg-red-700 transition px-6 py-2 rounded-full font-semibold text-white text-sm"
+                    class="bg-orange-400 hover:bg-orange-600 transition px-6 py-2 rounded-full font-semibold text-white text-sm"
                     @click="bookCall">
                     Book a Call
                 </button>
