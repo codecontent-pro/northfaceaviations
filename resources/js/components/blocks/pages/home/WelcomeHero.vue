@@ -12,7 +12,7 @@
 
                     <p class="text-gray-400 text-lg max-w-md">
                         Fast, reliable, and life-saving air ambulance services — available 24/7.
-                        Our mission: getting you or your loved ones the critical care they need, fast.
+                        Getting you or your loved ones the critical care they need, fast is our main goal.
                     </p>
 
                     <button

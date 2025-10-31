@@ -12,7 +12,7 @@
                     </div>
                     <img src="/images/air-ambulance-3.jpg" alt="Flight Medical Evacuation"
                         class="rounded-2xl object-cover w-full shadow-lg">
-                    <div class="absolute -top-8 -right-8 bg-red-600 text-white px-6 py-3 rounded-full shadow-md">
+                    <div class="absolute -top-8 -right-8 bg-orange-400 text-white px-6 py-3 rounded-full shadow-md">
                         24/7 Response Team
                     </div>
                 </div>
@@ -31,26 +31,26 @@
 
                     <ul class="space-y-4 text-gray-300">
                         <li class="flex items-center gap-3">
-                            <span class="w-2 h-2 bg-red-500 rounded-full"></span>
+                            <span class="w-2 h-2 bg-orange-300 rounded-full"></span>
                             Fully equipped medical aircraft
                         </li>
                         <li class="flex items-center gap-3">
-                            <span class="w-2 h-2 bg-red-500 rounded-full"></span>
+                            <span class="w-2 h-2 bg-orange-300 rounded-full"></span>
                             Licensed and experienced medical crew
                         </li>
                         <li class="flex items-center gap-3">
-                            <span class="w-2 h-2 bg-red-500 rounded-full"></span>
+                            <span class="w-2 h-2 bg-orange-300 rounded-full"></span>
                             Global coverage and rapid deployment
                         </li>
                         <li class="flex items-center gap-3">
-                            <span class="w-2 h-2 bg-red-500 rounded-full"></span>
+                            <span class="w-2 h-2 bg-orange-300 rounded-full"></span>
                             Coordination with hospitals worldwide
                         </li>
                     </ul>
 
                     <div class="mt-10">
                         <a href="#contact"
-                            class="inline-block bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-full font-semibold transition">
+                            class="inline-block bg-orange-400 hover:bg-orange-500 text-white px-8 py-3 rounded-full font-semibold transition">
                             Request Air Ambulance
                         </a>
                     </div>

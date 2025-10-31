@@ -11,23 +11,24 @@
 
             <!-- Hero Content -->
             <div class="relative z-10 max-w-5xl text-center mx-auto">
-                <h1 class="text-6xl md:text-7xl font-extrabold mb-6 tracking-tight leading-tight">
-                    About <span class="text-red-600">Northface Aviation</span>
+                <h1 class="text-4xl md:text-7xl font-extrabold mb-6 tracking-tight leading-tight">
+                    About <span class="text-orange-300">{{ $page.props.appName }}</span>
                 </h1>
                 <p class="text-xl md:text-2xl text-gray-300 leading-relaxed max-w-3xl mx-auto mb-10">
-                    We deliver world-class <span class="text-white font-semibold">air ambulance</span> and
-                    <span class="text-white font-semibold">medical evacuation</span> services across the globe.
-                    Speed, care, and precision define who we are.
+                    NorthStar Aviation Solutions Ltd is a leading aviation solution company dedicated to providing
+                    quality services, empowering the industry with innovative solutions, exceptional service and
+                    unparalleled expertise. We provide cutting edge technology data-driven insights and collaborative
+                    partnerships to enhance safety, efficiency and customer experience.
                 </p>
 
                 <!-- Buttons -->
                 <div class="flex flex-wrap justify-center gap-6">
                     <a href="#mission"
-                        class="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg shadow-red-900/40 transition duration-300">
+                        class="bg-orange-400 hover:bg-orange-600 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg shadow-orange-300/40 transition duration-300">
                         Our Mission
                     </a>
                     <a href="#contact"
-                        class="border border-gray-500 hover:border-red-600 hover:text-red-500 px-8 py-3 rounded-full text-lg font-semibold transition duration-300">
+                        class="border border-gray-500 hover:border-orange-300 hover:text-orange-300 px-8 py-3 rounded-full text-lg font-semibold transition duration-300">
                         Contact Us
                     </a>
                 </div>
@@ -38,7 +39,7 @@
                 <!-- Card 1 -->
                 <div
                     class="bg-gray-900/70 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border border-gray-800 hover:-translate-y-2 transition duration-300">
-                    <div class="text-4xl mb-4 text-red-600"><i class="fa-solid fa-plane-departure"></i></div>
+                    <div class="text-4xl mb-4 text-orange-300"><i class="fa-solid fa-plane-departure"></i></div>
                     <h3 class="text-2xl font-semibold mb-3">Global Reach</h3>
                     <p class="text-gray-400">We operate across continents, ensuring medical support wherever it’s
                         needed.</p>
@@ -47,7 +48,7 @@
                 <!-- Card 2 -->
                 <div
                     class="bg-gray-900/70 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border border-gray-800 hover:-translate-y-2 transition duration-300">
-                    <div class="text-4xl mb-4 text-red-600"><i class="fa-solid fa-headset"></i></div>
+                    <div class="text-4xl mb-4 text-orange-300"><i class="fa-solid fa-headset"></i></div>
                     <h3 class="text-2xl font-semibold mb-3">24/7 Support</h3>
                     <p class="text-gray-400">Our dispatch and emergency teams are on standby every hour of the day.</p>
                 </div>
@@ -55,7 +56,7 @@
                 <!-- Card 3 -->
                 <div
                     class="bg-gray-900/70 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border border-gray-800 hover:-translate-y-2 transition duration-300">
-                    <div class="text-4xl mb-4 text-red-600"><i class="fa-solid fa-user-md"></i></div>
+                    <div class="text-4xl mb-4 text-orange-300"><i class="fa-solid fa-user-md"></i></div>
                     <h3 class="text-2xl font-semibold mb-3">Expert Medical Team</h3>
                     <p class="text-gray-400">Trained professionals ensure patient safety and care during every
                         operation.</p>
