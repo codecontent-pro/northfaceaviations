@@ -1,21 +1,22 @@
 <template>
     <div>
-        <section class="min-h-screen bg-black text-white flex items-center px-8 md:px-20">
+        <section class="min-h-screen bg-slate-950 text-white flex items-center px-8 pt-28 md:pt-0 md:px-20">
+
             <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center w-full">
                 <!-- Left: Text -->
                 <div class="space-y-6">
                     <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">
-                        When Every <span class="text-red-500">Second</span> Counts,<br />
-                        We Fly You To <span class="text-red-500">Safety</span>.
+                        When Every <span class="text-orange-300">Second</span> Counts,<br />
+                        We Fly You To <span class="text-orange-300">Safety</span>.
                     </h1>
 
                     <p class="text-gray-400 text-lg max-w-md">
                         Fast, reliable, and life-saving air ambulance services — available 24/7.
-                        Our mission: getting you or your loved ones the critical care they need, fast.
+                        Getting you or your loved ones the critical care they need, fast is our main goal.
                     </p>
 
                     <button
-                        class="bg-red-600 hover:bg-red-700 transition px-6 py-3 rounded-full font-semibold text-white text-lg shadow-lg"
+                        class="bg-orange-400 hover:bg-orange-600 transition px-6 py-3 rounded-full font-semibold text-white text-lg shadow-lg"
                         @click="bookCall">
                         Book a Call
                     </button>

@@ -3,7 +3,7 @@
         <div class="max-w-6xl mx-auto">
             <div class="text-center mb-12">
                 <h2 class="text-4xl md:text-5xl font-extrabold">
-                    Our <span class="text-red-600">Global Presence</span>
+                    Our <span class="text-orange-300">Global Presence</span>
                 </h2>
                 <p class="text-gray-400 max-w-2xl mx-auto mt-4">
                     We operate across continents — rapid, reliable medical air transport where it matters most.
@@ -14,7 +14,7 @@
             <div class="relative bg-neutral-900/30 rounded-xl p-6 md:p-10 overflow-hidden">
                 <!-- Decorative gradient glow -->
                 <div class="absolute inset-0 pointer-events-none">
-                    <div class="absolute -left-32 -top-32 w-96 h-96 rounded-full bg-red-600/5 blur-3xl"></div>
+                    <div class="absolute -left-32 -top-32 w-96 h-96 rounded-full bg-orange-300/5 blur-3xl"></div>
                     <div class="absolute -right-32 -bottom-32 w-96 h-96 rounded-full bg-amber-400/3 blur-3xl"></div>
                 </div>
 
@@ -84,7 +84,7 @@
                         </p>
                     </div>
                     <a href="#contact"
-                        class="ml-auto md:ml-0 inline-block bg-red-600 hover:bg-red-700 text-white px-5 py-2 rounded-full text-sm font-semibold transition">
+                        class="ml-auto md:ml-0 inline-block bg-orange-400 hover:bg-orange-700 text-white px-5 py-2 rounded-full text-sm font-semibold transition">
                         Request Assistance
                     </a>
                 </div>

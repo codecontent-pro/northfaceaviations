@@ -1,7 +1,7 @@
 <template>
     <section class="bg-black text-gray-200 py-24 relative overflow-hidden">
         <!-- Background glow accent -->
-        <div class="absolute inset-0 bg-gradient-to-b from-red-950/20 to-transparent pointer-events-none"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-orange-950/20 to-transparent pointer-events-none"></div>
 
         <div class="max-w-7xl mx-auto px-6 relative z-10">
             <div class="text-center mb-16">
@@ -33,7 +33,7 @@
             </div>
 
             <!-- Decorative underline -->
-            <div class="mt-20 w-32 h-[3px] mx-auto bg-gradient-to-r from-red-600 to-transparent rounded-full"></div>
+            <div class="mt-20 w-32 h-[3px] mx-auto bg-gradient-to-r from-orange-600 to-transparent rounded-full"></div>
         </div>
     </section>
 </template>

@@ -11,13 +11,13 @@
                         Safety and speed are at the heart of everything we do.
                     </p>
                     <div class="flex gap-4 mt-4">
-                        <a href="#" class="text-gray-400 hover:text-red-500 transition"><i
+                        <a href="#" class="text-gray-400 hover:text-orange-500 transition"><i
                                 class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#" class="text-gray-400 hover:text-red-500 transition"><i
+                        <a href="#" class="text-gray-400 hover:text-orange-500 transition"><i
                                 class="fa-brands fa-twitter"></i></a>
-                        <a href="#" class="text-gray-400 hover:text-red-500 transition"><i
+                        <a href="#" class="text-gray-400 hover:text-orange-500 transition"><i
                                 class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="#" class="text-gray-400 hover:text-red-500 transition"><i
+                        <a href="#" class="text-gray-400 hover:text-orange-500 transition"><i
                                 class="fa-brands fa-instagram"></i></a>
                     </div>
                 </div>
@@ -26,10 +26,10 @@
                 <div>
                     <h4 class="text-white font-semibold text-lg mb-4">Quick Links</h4>
                     <ul class="space-y-3">
-                        <li><a href="#home" class="hover:text-red-500 transition">Home</a></li>
-                        <li><a href="#services" class="hover:text-red-500 transition">Services</a></li>
-                        <li><a href="#fleet" class="hover:text-red-500 transition">Our Fleet</a></li>
-                        <li><a href="#contact" class="hover:text-red-500 transition">Contact</a></li>
+                        <li><a href="#home" class="hover:text-orange-500 transition">Home</a></li>
+                        <li><a href="#services" class="hover:text-orange-500 transition">Services</a></li>
+                        <li><a href="#fleet" class="hover:text-orange-500 transition">Our Fleet</a></li>
+                        <li><a href="#contact" class="hover:text-orange-500 transition">Contact</a></li>
                     </ul>
                 </div>
 
@@ -37,10 +37,10 @@
                 <div>
                     <h4 class="text-white font-semibold text-lg mb-4">Our Services</h4>
                     <ul class="space-y-3">
-                        <li><a href="#" class="hover:text-red-500 transition">Air Ambulance</a></li>
-                        <li><a href="#" class="hover:text-red-500 transition">Medical Evacuation</a></li>
-                        <li><a href="#" class="hover:text-red-500 transition">Private Charter</a></li>
-                        <li><a href="#" class="hover:text-red-500 transition">Cargo Logistics</a></li>
+                        <li><a href="#" class="hover:text-orange-500 transition">Air Ambulance</a></li>
+                        <li><a href="#" class="hover:text-orange-500 transition">Medical Evacuation</a></li>
+                        <li><a href="#" class="hover:text-orange-500 transition">Private Charter</a></li>
+                        <li><a href="#" class="hover:text-orange-500 transition">Cargo Logistics</a></li>
                     </ul>
                 </div>
 
@@ -48,13 +48,13 @@
                 <div>
                     <h4 class="text-white font-semibold text-lg mb-4">Contact Us</h4>
                     <ul class="space-y-3 text-gray-400">
-                        <li><i class="fa-solid fa-location-dot text-red-500 mr-2"></i>Abuja, Nigeria</li>
-                        <li><i class="fa-solid fa-phone text-red-500 mr-2"></i>+234 700 123 4567</li>
-                        <li><i class="fa-solid fa-envelope text-red-500 mr-2"></i>info@northfaceaviations.com</li>
+                        <li><i class="fa-solid fa-location-dot text-orange-500 mr-2"></i>Abuja, Nigeria</li>
+                        <li><i class="fa-solid fa-phone text-orange-500 mr-2"></i>+234 700 123 4567</li>
+                        <li><i class="fa-solid fa-envelope text-orange-500 mr-2"></i>info@northfaceaviations.com</li>
                     </ul>
                     <div class="mt-6">
                         <a href="#contact"
-                            class="inline-block bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-full text-sm font-semibold transition">
+                            class="inline-block bg-orange-400 hover:bg-orange-600 text-white px-6 py-2 rounded-full text-sm font-semibold transition">
                             Get in Touch
                         </a>
                     </div>
@@ -68,7 +68,8 @@
                 <p>&copy; <span id="year">{{ new Date().getFullYear() }}</span>
                     {{ $page.props.appName }} All rights reserved.
                 </p>
-                <p>Developed by <a href="https://codecontent.dev" class="text-red-500 hover:underline">CodeContent</a>
+                <p>Developed by <a href="https://codecontent.pro" target="_blank" rel="noopener"
+                        class="text-orange-300 hover:underline">CodeContent</a>
                 </p>
             </div>
         </div>
