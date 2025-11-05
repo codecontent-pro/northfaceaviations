@@ -27,9 +27,9 @@
 
             <!-- Contact Info -->
             <div class="flex flex-col md:flex-row justify-center items-center gap-6 mt-10">
-                <a href="tel:+1234567890"
+                <a href="tel:+2348032157301"
                     class="bg-orange-400 hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-full transition duration-300 shadow-lg shadow-orange-300/20">
-                    📞 Call Now: +1 234 567 890
+                    📞 Call Now: +234 8032157301
                 </a>
                 <a href="#contact-form"
                     class="border border-gray-600 hover:border-orange-300 hover:text-orange-300 px-8 py-4 rounded-full font-semibold transition duration-300">
