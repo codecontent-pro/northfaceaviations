@@ -1,4 +1,5 @@
 <script setup>
+import { Link } from '@inertiajs/vue3';
 </script>
 
 <template>
@@ -27,10 +28,10 @@
                         class="bg-orange-400 hover:bg-orange-600 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg shadow-orange-300/40 transition duration-300">
                         Our Mission
                     </a>
-                    <a href="#contact"
+                    <Link href="/contact"
                         class="border border-gray-500 hover:border-orange-300 hover:text-orange-300 px-8 py-3 rounded-full text-lg font-semibold transition duration-300">
-                        Contact Us
-                    </a>
+                    Contact Us
+                    </Link>
                 </div>
             </div>
 

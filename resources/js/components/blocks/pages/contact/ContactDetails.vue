@@ -48,8 +48,7 @@
                 <div class="bg-[#111] border border-gray-800 rounded-2xl p-8 shadow-lg shadow-black/30">
                     <h3 class="text-xl font-bold mb-4 text-orange-300">Head Office</h3>
                     <p class="text-gray-300">
-                        48 Aviation Drive,
-                        London, United Kingdom
+                        General Aviation Terminal, Nnamdi Azikiwe International Airport Abuja, Nigeria
                         <br />
                         <span class="text-gray-400 text-sm">Mon – Fri: 8:00 AM – 6:00 PM</span>
                     </p>
@@ -58,7 +57,7 @@
                 <div class="bg-[#111] border border-gray-800 rounded-2xl p-8 shadow-lg shadow-black/30">
                     <h3 class="text-xl font-bold mb-4 text-orange-300">Operations Center</h3>
                     <p class="text-gray-300">
-                        Global Control Room – 24/7 Active
+                        Suite 106, Orago commercial complex, Area 10, garki Abuja – 24/7 Active
                         <br />
                         <span class="text-gray-400 text-sm">Always ready for dispatch and coordination</span>
                     </p>
@@ -67,7 +66,7 @@
                 <div class="bg-[#111] border border-gray-800 rounded-2xl p-8 shadow-lg shadow-black/30">
                     <h3 class="text-xl font-bold mb-4 text-orange-300">Emergency Line</h3>
                     <p class="text-gray-300 text-lg font-semibold">
-                        📞 +1 234 567 890
+                        📞 +234 8032157301
                     </p>
                     <p class="text-gray-400 text-sm mt-2">
                         Available 24/7 for immediate evacuation requests.

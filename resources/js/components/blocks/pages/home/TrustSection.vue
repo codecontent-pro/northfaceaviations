@@ -8,7 +8,7 @@
                         Trusted. Fast. Life-Saving Air Transfers.
                     </h2>
                     <p class="text-neutral-300 text-lg leading-relaxed mb-8">
-                        Northface Aviations delivers rapid medical evacuation and repatriation services across
+                        Northstar Aviation Solutions Ltd delivers rapid medical evacuation and repatriation services across
                         Africa, Europe, and the Middle East. Our mission is simple — to save lives through speed,
                         safety, and precision.
                     </p>
@@ -38,8 +38,10 @@
 
                 <!-- Right image block -->
                 <div class="relative">
-                    <img src="https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=800&q=80"
+                    <img src="https://images.unsplash.com/photo-1696243144263-76fbba9f8d18?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2071"
                         alt="Air Ambulance Crew" class="rounded-2xl shadow-2xl" />
+                    <!-- <img src="https://images.unsplash.com/photo-1728965681928-92f781fc1b45?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070"
+                        alt="Air Ambulance Crew" class="rounded-2xl shadow-2xl" /> -->
                     <div
                         class="absolute bottom-4 left-4 bg-black/70 backdrop-blur-sm text-sm px-4 py-2 rounded-xl border border-amber-500/40">
                         <span class="text-amber-400 font-semibold">Since 2008</span> — Trusted by governments,
@@ -56,7 +58,7 @@
 
                 <!-- IMAGE PANEL -->
                 <div class="relative group">
-                    <img src="https://images.unsplash.com/photo-1587019156012-221c6a2c2d17?auto=format&fit=crop&w=1000&q=80"
+                    <img src="https://images.unsplash.com/photo-1540962351504-03099e0a754b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1974"
                         alt="Air Ambulance Jet"
                         class="rounded-2xl shadow-[0_0_40px_rgba(255,215,0,0.08)] group-hover:shadow-[0_0_60px_rgba(255,215,0,0.15)] transition duration-500" />
                     <div
@@ -81,7 +83,7 @@
                     <div class="grid grid-cols-2 gap-6 mt-10">
                         <div
                             class="bg-neutral-900 rounded-2xl p-6 border border-neutral-800 hover:border-amber-500/40 transition">
-                            <img src="https://images.unsplash.com/photo-1603775020644-7e09e421da20?auto=format&fit=crop&w=600&q=80"
+                            <img src="https://images.unsplash.com/photo-1696243144313-184a8a266e1a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2071"
                                 alt="Medical Crew" class="rounded-lg mb-4" />
                             <h3 class="text-xl font-semibold mb-2 text-white">Expert Crew</h3>
                             <p class="text-neutral-400 text-sm">Certified medical and flight teams trained in emergency
@@ -90,7 +92,7 @@
 
                         <div
                             class="bg-neutral-900 rounded-2xl p-6 border border-neutral-800 hover:border-amber-500/40 transition">
-                            <img src="https://images.unsplash.com/photo-1533134486753-c833f0ed4866?auto=format&fit=crop&w=600&q=80"
+                            <img src="https://images.unsplash.com/photo-1696243144337-cb0532507e9a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2071"
                                 alt="Jet Fleet" class="rounded-lg mb-4" />
                             <h3 class="text-xl font-semibold mb-2 text-white">Global Fleet</h3>
                             <p class="text-neutral-400 text-sm">Jets equipped for long-distance patient transport with
