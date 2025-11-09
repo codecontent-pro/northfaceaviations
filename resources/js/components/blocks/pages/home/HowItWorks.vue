@@ -5,12 +5,12 @@
                 <!-- Left: Image collage -->
                 <div class="relative space-y-6">
                     <div class="grid grid-cols-2 gap-4">
-                        <img src="/images/air-ambulance-1.jpg" alt="Air Ambulance Service"
+                        <img src="https://images.unsplash.com/photo-1622789093163-b00df7129dff?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2045" alt="Air Ambulance Service"
                             class="rounded-2xl object-cover shadow-lg">
-                        <img src="/images/air-ambulance-2.jpg" alt="Emergency Air Rescue"
+                        <img src="https://images.unsplash.com/photo-1692176961746-e3b5aeb9669a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1480" alt="Emergency Air Rescue"
                             class="rounded-2xl object-cover shadow-lg mt-8">
                     </div>
-                    <img src="/images/air-ambulance-3.jpg" alt="Flight Medical Evacuation"
+                    <img src="https://images.unsplash.com/photo-1695686017922-cd11e76d6f95?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1035" alt="Flight Medical Evacuation"
                         class="rounded-2xl object-cover w-full shadow-lg">
                     <div class="absolute -top-8 -right-8 bg-orange-400 text-white px-6 py-3 rounded-full shadow-md">
                         24/7 Response Team
@@ -23,7 +23,7 @@
                         Emergency Air Ambulance <br /> When Every Second Counts
                     </h2>
                     <p class="text-gray-300 mb-8 leading-relaxed">
-                        Northface Aviation provides rapid-response medical flights and emergency evacuations anywhere in
+                        Northstar Aviation Solutions Ltd provides rapid-response medical flights and emergency evacuations anywhere in
                         the world.
                         Our expert flight medics and pilots are trained to handle the most critical missions with speed,
                         care, and precision.

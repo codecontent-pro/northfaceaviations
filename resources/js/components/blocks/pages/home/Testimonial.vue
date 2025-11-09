@@ -10,8 +10,8 @@
                 </h2>
                 <p class="text-gray-400 max-w-2xl mx-auto">
                     Every mission is a story of courage, precision, and care.
-                    Here’s what some of our patients and partners have to say about their experience with Northface
-                    Aviation.
+                    Here’s what some of our patients and partners have to say about their experience with Northstar
+                    Aviation Solutions Ltd.
                 </p>
             </div>
 
@@ -42,7 +42,7 @@
 const testimonials = [
     {
         quote:
-            'When my father fell ill in Ghana, Northface Aviation responded immediately. The professionalism and care during the flight were world-class.',
+        'When my father fell ill in Ghana, Northstar Aviation Solutions Ltd responded immediately. The professionalism and care during the flight were world-class.',
         name: 'Sarah Williams',
         role: 'Family Member, UK',
         image:

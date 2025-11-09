@@ -50,7 +50,7 @@
                     <ul class="space-y-3 text-gray-400">
                         <li><i class="fa-solid fa-location-dot text-orange-500 mr-2"></i>Abuja, Nigeria</li>
                         <li><i class="fa-solid fa-phone text-orange-500 mr-2"></i>+234 8032157301</li>
-                        <li><i class="fa-solid fa-envelope text-orange-500 mr-2"></i>info@northfaceaviations.com</li>
+                        <li><i class="fa-solid fa-envelope text-orange-500 mr-2"></i>info@northstaraviations.com</li>
                     </ul>
                     <div class="mt-6">
                         <a href="#contact"

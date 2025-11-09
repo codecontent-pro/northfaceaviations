@@ -51,7 +51,7 @@ class HandleInertiaRequests extends Middleware
                 'warning' => session()->get('warning'),
             ],
             'sidebarOpen' => ! $request->hasCookie('sidebar_state') || $request->cookie('sidebar_state') === 'true',
-            'appName' => env('APP_NAME', 'Northface Aviations'),
+            'appName' => env('APP_NAME', 'NorthstarAviation'),
             
         ];
     }

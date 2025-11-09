@@ -8,7 +8,7 @@
             <!-- Text Section -->
             <div>
                 <h2 class="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
-                    Why Choose <span class="text-orange-300">Northface Aviation</span>?
+                    Why Choose <span class="text-orange-300">Northstar Aviation Solutions Ltd</span>?
                 </h2>
                 <p class="text-gray-400 mb-8 leading-relaxed">
                     To empower the aviation industry with innovative solutions, exceptional service and unparalleled
