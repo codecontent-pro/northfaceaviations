@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import { Link, usePage } from '@inertiajs/vue3';
+</script>
+
 <template>
     <footer class="bg-black text-gray-300 pt-16 pb-10 border-t border-gray-800">
         <div class="container mx-auto px-6 lg:px-12">
