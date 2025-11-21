@@ -106,19 +106,20 @@ const fleet = [
         name: "Phenom 300",
         type: "Light Jet",
         capacity: "8 seaters",
-        image: "/images/fleet/phenom.jpg",
+        // image: "/images/fleet/phenom.jpg",
+        image: "phenon3000.webp",
     },
     {
         name: "Challenger Series (602 / 604 / 605)",
         type: "Heavy Jet",
         capacity: "12 - 13 seaters",
-        image: "/images/fleet/challenger.jpg",
+        image: "challenger.webp",
     },
     {
         name: "Gulfstream G400",
         type: "Long Range Jet",
         capacity: "14 seaters",
-        image: "/images/fleet/gulfstream400.jpg",
+        image: "gulfstream.webp",
     },
     {
         name: "Gulfstream G550",
@@ -130,7 +131,7 @@ const fleet = [
         name: "Embraer Legacy",
         type: "Heavy Jet",
         capacity: "14 seaters",
-        image: "/images/fleet/embraer-legacy.jpg",
+        image: "https://images.unsplash.com/photo-1706920102507-3f6a8ce88acb?q=80&w=1598&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
         name: "Embraer 145",
@@ -160,7 +161,7 @@ const fleet = [
         name: "Beechcraft 1900",
         type: "Turboprop",
         capacity: "17 seaters",
-        image: "/images/fleet/beechcraft1900.jpg",
+        image: "https://images.unsplash.com/photo-1726002496691-e9a86b5fdb97?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
 ];
 </script>

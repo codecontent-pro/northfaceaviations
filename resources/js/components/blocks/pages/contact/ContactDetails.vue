@@ -12,7 +12,7 @@ const form = useForm({
 });
 
 const submit = () => {
-
+    console.log(form);
     form.submit(PagesController.sendContactForm(), {
         // onSuccess: () => {
         //     console.log(form);
