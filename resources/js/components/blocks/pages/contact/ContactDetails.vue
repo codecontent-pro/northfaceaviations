@@ -3,6 +3,7 @@ import { useForm, usePage } from '@inertiajs/vue3'
 import PagesController from "@/actions/App/Http/Controllers/PagesController";
 import { toast } from 'vue-sonner'
 import InputError from '@/components/InputError.vue';
+import { ref } from 'vue'
 
 const page = usePage();
 const form = useForm({
@@ -10,25 +11,18 @@ const form = useForm({
     subject: '',
     message: '',
 });
+let flashMessage = ref('')
 
 const submit = () => {
-    console.log(form);
     form.submit(PagesController.sendContactForm(), {
-        // onSuccess: () => {
-        //     console.log(form);
-        // },
+        onSuccess: () => {
+            form.reset();
+        },
         onFinish: () => {
             const success = page.props.flash?.success
             if (success) {
-                toast('Business Created', {
-                    description: success,
-                    action: {
-                        label: 'Continue',
-                        onClick: () => console.log('business created'),
-                    }
-                })
+                flashMessage.value = 'Your message has been sent successfully. We will get back to you soon.'
             }
-            // isDrawerOpen.value = false
         }
     })
 }
@@ -52,6 +46,10 @@ const submit = () => {
                     Have an inquiry or need immediate assistance?
                     Fill out the form and our operations team will reach out within minutes.
                 </p>
+
+                <div v-if="flashMessage" class="bg-green-500 text-white rounded w-full p-4 mb-4">
+                    {{ flashMessage }}
+                </div>
 
                 <form @submit.prevent="submit" class="space-y-6">
 
@@ -77,7 +75,7 @@ const submit = () => {
                     </div>
 
                     <button type="submit"
-                        class="bg-orange-300 hover:bg-orange-300 text-white font-semibold px-8 py-4 rounded-full transition duration-300 shadow-lg shadow-orange-300/20">
+                        class="hover:cursor-pointer hover:bg-orange-500 bg-orange-300 text-white font-semibold px-8 py-4 rounded-full transition duration-300 shadow-lg shadow-orange-300/20">
                         Send Message
                     </button>
                 </form>
