@@ -39,13 +39,13 @@ class PagesController extends Controller
         try {
             $email = env('MAIL_FROM_ADDRESS');
             $body = "Sent from: {$validated['email']}\nBody: {$validated['message']}\n\n";
-
+            
             Mail::raw($body, function ($message) use ($email, $validated) {
                 $message->to($email)
                         ->subject($validated['subject']);
             });
 
-            // return redirect()->back()->with('success', 'Your message has been sent successfully!');
+            return redirect()->back()->with('success', 'Your message has been sent successfully!');
         } catch (\Exception $e) {
             return redirect()->back()->with('error', 'An error occurred while sending the email.'.$e->getMessage());
         }
