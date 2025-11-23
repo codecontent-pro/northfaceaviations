@@ -1,3 +1,39 @@
+<script setup lang="ts">
+import { useForm, usePage } from '@inertiajs/vue3'
+import PagesController from "@/actions/App/Http/Controllers/PagesController";
+import { toast } from 'vue-sonner'
+import InputError from '@/components/InputError.vue';
+
+const page = usePage();
+const form = useForm({
+    email: '',
+    subject: '',
+    message: '',
+});
+
+const submit = () => {
+    console.log(form);
+    form.submit(PagesController.sendContactForm(), {
+        // onSuccess: () => {
+        //     console.log(form);
+        // },
+        onFinish: () => {
+            const success = page.props.flash?.success
+            if (success) {
+                toast('Business Created', {
+                    description: success,
+                    action: {
+                        label: 'Continue',
+                        onClick: () => console.log('business created'),
+                    }
+                })
+            }
+            // isDrawerOpen.value = false
+        }
+    })
+}
+</script>
+
 <template>
     <section id="contact-form" class="relative bg-[#0a0a0a] text-white py-24 px-6 md:px-16 lg:px-24 overflow-hidden">
         <!-- Background Glow -->
@@ -17,23 +53,27 @@
                     Fill out the form and our operations team will reach out within minutes.
                 </p>
 
-                <form class="space-y-6">
-                    <div>
-                        <label class="block text-gray-400 mb-2">Full Name</label>
-                        <input type="text" placeholder="Your name"
-                            class="w-full bg-[#111] border border-gray-700 focus:border-orange-300 rounded-xl px-4 py-3 text-white placeholder-gray-500 outline-none transition" />
-                    </div>
+                <form @submit.prevent="submit" class="space-y-6">
 
                     <div>
                         <label class="block text-gray-400 mb-2">Email</label>
-                        <input type="email" placeholder="you@example.com"
+                        <input v-model="form.email" type="email" placeholder="you@example.com"
                             class="w-full bg-[#111] border border-gray-700 focus:border-orange-300 rounded-xl px-4 py-3 text-white placeholder-gray-500 outline-none transition" />
+                        <InputError :message="form.errors.email" />
+                    </div>
+
+                    <div>
+                        <label class="block text-gray-400 mb-2">Title</label>
+                        <input v-model="form.subject" type="text" placeholder="Subject"
+                            class="w-full bg-[#111] border border-gray-700 focus:border-orange-300 rounded-xl px-4 py-3 text-white placeholder-gray-500 outline-none transition" />
+                        <InputError :message="form.errors.subject" />
                     </div>
 
                     <div>
                         <label class="block text-gray-400 mb-2">Message</label>
-                        <textarea rows="5" placeholder="Type your message..."
+                        <textarea v-model="form.message" rows="5" placeholder="Type your message..."
                             class="w-full bg-[#111] border border-gray-700 focus:border-orange-300 rounded-xl px-4 py-3 text-white placeholder-gray-500 outline-none transition"></textarea>
+                        <InputError :message="form.errors.message" />
                     </div>
 
                     <button type="submit"

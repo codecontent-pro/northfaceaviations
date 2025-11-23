@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { Link, usePage } from '@inertiajs/vue3';
+import PagesController from "@/actions/App/Http/Controllers/PagesController";
 </script>
 
 <template>
@@ -30,10 +31,20 @@ import { Link, usePage } from '@inertiajs/vue3';
                 <div>
                     <h4 class="text-white font-semibold text-lg mb-4">Quick Links</h4>
                     <ul class="space-y-3">
-                        <li><a href="#home" class="hover:text-orange-500 transition">Home</a></li>
-                        <li><a href="#services" class="hover:text-orange-500 transition">Services</a></li>
-                        <li><a href="#fleet" class="hover:text-orange-500 transition">Our Fleet</a></li>
-                        <li><a href="#contact" class="hover:text-orange-500 transition">Contact</a></li>
+                        <li>
+                            <Link :href="PagesController.home()" class="hover:text-orange-500 transition">Home</Link>
+                        </li>
+                        <li>
+                            <Link :href="PagesController.about()" class="hover:text-orange-500 transition">About</Link>
+                        </li>
+                        <li>
+                            <Link :href="PagesController.service()" class="hover:text-orange-500 transition">Services
+                            </Link>
+                        </li>
+                        <li>
+                            <Link :href="PagesController.contact()" class="hover:text-orange-500 transition">Contact
+                            </Link>
+                        </li>
                     </ul>
                 </div>
 
@@ -41,10 +52,22 @@ import { Link, usePage } from '@inertiajs/vue3';
                 <div>
                     <h4 class="text-white font-semibold text-lg mb-4">Our Services</h4>
                     <ul class="space-y-3">
-                        <li><a href="#" class="hover:text-orange-500 transition">Air Ambulance</a></li>
-                        <li><a href="#" class="hover:text-orange-500 transition">Medical Evacuation</a></li>
-                        <li><a href="#" class="hover:text-orange-500 transition">Private Charter</a></li>
-                        <li><a href="#" class="hover:text-orange-500 transition">Cargo Logistics</a></li>
+                        <li>
+                            <Link :href="PagesController.service()" class="hover:text-orange-500 transition">Air
+                            Ambulance</Link>
+                        </li>
+                        <li>
+                            <Link :href="PagesController.service()" class="hover:text-orange-500 transition">Medical
+                            Evacuation</Link>
+                        </li>
+                        <li>
+                            <Link :href="PagesController.service()" class="hover:text-orange-500 transition">Private
+                            Charter</Link>
+                        </li>
+                        <li>
+                            <Link :href="PagesController.service()" class="hover:text-orange-500 transition">Cargo
+                            Logistics</Link>
+                        </li>
                     </ul>
                 </div>
 
@@ -57,10 +80,10 @@ import { Link, usePage } from '@inertiajs/vue3';
                         <li><i class="fa-solid fa-envelope text-orange-500 mr-2"></i>info@northstaraviations.com</li>
                     </ul>
                     <div class="mt-6">
-                        <a href="#contact"
+                        <Link :href="PagesController.contact()"
                             class="inline-block bg-orange-400 hover:bg-orange-600 text-white px-6 py-2 rounded-full text-sm font-semibold transition">
-                            Get in Touch
-                        </a>
+                        Get in Touch
+                        </Link>
                     </div>
                 </div>
 
