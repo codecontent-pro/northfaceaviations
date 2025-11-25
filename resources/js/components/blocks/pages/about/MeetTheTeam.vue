@@ -11,7 +11,7 @@
             </p>
 
             <!-- Team Grid -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+            <div class="grid grid-cols-1 sm:grid-cols-2 mx-auto lg:grid-cols-3 gap-10">
                 <div v-for="member in team" :key="member.name"
                     class="bg-gradient-to-b from-gray-900 to-gray-800 border border-gray-700 rounded-2xl overflow-hidden hover:shadow-2xl hover:shadow-orange-900/30 transition-all duration-300">
                     <img :src="member.image" :alt="member.name"
@@ -33,10 +33,10 @@
 <script setup>
 const team = [
     {
-        name: 'Captain Daniel Smith',
+        name: 'Emraph',
         role: 'Chief Pilot',
         image:
-            'https://images.unsplash.com/photo-1581093588401-22d04cc7f2d7?auto=format&fit=crop&w=800&q=80',
+            'emraph.jpeg',
         description:
             '15+ years of international flight experience, leading safe and efficient medical evacuations worldwide.',
     },
@@ -55,15 +55,7 @@ const team = [
             'https://images.unsplash.com/photo-1590650046871-92c887180603?auto=format&fit=crop&w=800&q=80',
         description:
             'Ensures seamless logistics and flight readiness across multiple regions, coordinating teams with precision.',
-    },
-    {
-        name: 'Nurse Jane Roberts',
-        role: 'Flight Nurse',
-        image:
-            'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=800&q=80',
-        description:
-            'Delivers expert in-flight care, ensuring patients receive the highest level of medical attention mid-air.',
-    },
+    }
 ];
 </script>
 
