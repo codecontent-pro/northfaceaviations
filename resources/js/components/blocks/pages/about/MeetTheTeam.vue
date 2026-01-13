@@ -33,29 +33,31 @@
 <script setup>
 const team = [
     {
-        name: 'Emraph',
-        role: 'Chief Pilot',
+        name: 'Vincent Onuh',
+        role: 'Administration & Legal Affairs',
+        image:
+            'Vincent.JPEG',
+        description:
+            'Vincent Onuh is a qualified Barrister and Solicitor specializing in public and private law and conflict resolution. He utilizes alternative dispute resolution (ADR) techniques to ensure timely justice delivery and foster community stability. His commitment to peacebuilding and social justice drives innovative, inclusive approaches to promoting liberty and equity across diverse contexts',
+    },
+    {
+        name: 'Akolade Esther',
+        role: 'Business Development',
+        image:
+            'Esther1.jpeg',
+        description:
+            'Akola Esther combines a BSc in Business Administration with experience as a licensed cabin crew member to offer analytical expertise and exceptional service. Her background has cultivated strong interpersonal skills, attention to detail, and resourcefulness under pressure',
+    },
+
+    {
+        name: 'Emmanuel Onwubuariri',
+        role: 'Operations Lead',
         image:
             'emraph.jpeg',
         description:
-            '15+ years of international flight experience, leading safe and efficient medical evacuations worldwide.',
+            'Emmanuel Onwubuariri is a seasoned aviation professional with over 10 years of experience in flight operations and safety management. His expertise in aviation operations, coupled with a strong commitment to safety and efficiency, ensures that every flight meets the highest standards of excellence.',
     },
-    {
-        name: 'Dr. Aisha Karim',
-        role: 'Medical Director',
-        image:
-            'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80',
-        description:
-            'Specialist in emergency medicine, overseeing all in-flight patient care and coordination with ground facilities.',
-    },
-    {
-        name: 'Michael Chen',
-        role: 'Operations Manager',
-        image:
-            'https://images.unsplash.com/photo-1590650046871-92c887180603?auto=format&fit=crop&w=800&q=80',
-        description:
-            'Ensures seamless logistics and flight readiness across multiple regions, coordinating teams with precision.',
-    }
+
 ];
 </script>
 
