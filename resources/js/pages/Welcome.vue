@@ -5,6 +5,7 @@ import WhyChooseUs from '@/components/blocks/pages/home/WhyChooseUs.vue';
 import TrustSection from '@/components/blocks/pages/home/TrustSection.vue';
 import HowItWorks from '@/components/blocks/pages/home/HowItWorks.vue';
 import Testimonial from '@/components/blocks/pages/home/Testimonial.vue';
+import Jetcharter from '@/components/blocks/pages/home/Jetcharter.vue';
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import Testimonial from '@/components/blocks/pages/home/Testimonial.vue';
         <HeroSection />
         <WhyChooseUs />
         <TrustSection />
+        <Jetcharter />
         <HowItWorks />
         <Testimonial />
     </PagesLayout>

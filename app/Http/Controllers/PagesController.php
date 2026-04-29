@@ -22,6 +22,41 @@ class PagesController extends Controller
     {
         return Inertia::render('Service');
     }
+
+    public function airAmbulance()
+    {
+        return Inertia::render('services/AirAmbulance');
+    }
+
+    public function privateJetHelicopterCharter()
+    {
+        return Inertia::render('services/PrivateJetHelicopterCharter');
+    }
+
+    public function airCargo()
+    {
+        return Inertia::render('services/AirCargo');
+    }
+
+    public function aircraftManagement()
+    {
+        return Inertia::render('services/AircraftManagement');
+    }
+
+    public function aircraftSaleLease()
+    {
+        return Inertia::render('services/AircraftSaleLease');
+    }
+
+    public function travelSupport()
+    {
+        return Inertia::render('services/TravelSupport');
+    }
+
+    public function aviationConsultancy()
+    {
+        return Inertia::render('services/AviationConsultancy');
+    }
     
     public function contact()
     {
