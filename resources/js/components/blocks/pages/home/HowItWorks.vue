@@ -5,53 +5,56 @@
                 <!-- Left: Image collage -->
                 <div class="relative space-y-6">
                     <div class="grid grid-cols-2 gap-4">
-                        <img src="https://images.unsplash.com/photo-1622789093163-b00df7129dff?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2045" alt="Air Ambulance Service"
+                        <img src="/cargo_3.jpeg" alt="Air cargo loading operation"
                             class="rounded-2xl object-cover shadow-lg">
-                        <img src="https://images.unsplash.com/photo-1692176961746-e3b5aeb9669a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1480" alt="Emergency Air Rescue"
+                        <img src="/ticketing_2.jpeg" alt="Flight ticketing and travel support desk"
                             class="rounded-2xl object-cover shadow-lg mt-8">
                     </div>
-                    <img src="https://images.unsplash.com/photo-1695686017922-cd11e76d6f95?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1035" alt="Flight Medical Evacuation"
+                    <img src="/craft_management_3.jpeg" alt="Aircraft management and consultancy operations"
                         class="rounded-2xl object-cover w-full shadow-lg">
                     <div class="absolute -top-8 -right-8 bg-orange-400 text-white px-6 py-3 rounded-full shadow-md">
-                        24/7 Response Team
+                        Multi-Service Aviation Partner
                     </div>
                 </div>
 
                 <!-- Right: Text content -->
                 <div>
                     <h2 class="text-4xl font-bold mb-6 leading-tight">
-                        Emergency Air Ambulance <br /> When Every Second Counts
+                        More Aviation Services <br /> Built Around Your Mission
                     </h2>
                     <p class="text-gray-300 mb-8 leading-relaxed">
-                        Northstar Aviation Solutions Ltd provides rapid-response medical flights and emergency evacuations anywhere in
-                        the world.
-                        Our expert flight medics and pilots are trained to handle the most critical missions with speed,
-                        care, and precision.
+                        Beyond private charter and air ambulance, Northstar Aviation Solutions Ltd delivers specialized
+                        aviation support for organizations, executives, and families that need speed, structure, and
+                        reliability across every stage of travel and fleet operations.
                     </p>
 
                     <ul class="space-y-4 text-gray-300">
                         <li class="flex items-center gap-3">
                             <span class="w-2 h-2 bg-orange-300 rounded-full"></span>
-                            Fully equipped medical aircraft
+                            Air cargo and time-critical freight coordination
                         </li>
                         <li class="flex items-center gap-3">
                             <span class="w-2 h-2 bg-orange-300 rounded-full"></span>
-                            Licensed and experienced medical crew
+                            End-to-end ticketing and travel support services
                         </li>
                         <li class="flex items-center gap-3">
                             <span class="w-2 h-2 bg-orange-300 rounded-full"></span>
-                            Global coverage and rapid deployment
+                            Aircraft management for maintenance and operations oversight
                         </li>
                         <li class="flex items-center gap-3">
                             <span class="w-2 h-2 bg-orange-300 rounded-full"></span>
-                            Coordination with hospitals worldwide
+                            Aircraft sale and lease advisory for smarter fleet decisions
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span class="w-2 h-2 bg-orange-300 rounded-full"></span>
+                            Aviation consultancy focused on safety, compliance, and efficiency
                         </li>
                     </ul>
 
                     <div class="mt-10">
-                        <a href="#contact"
+                        <a href="/service"
                             class="inline-block bg-orange-400 hover:bg-orange-500 text-white px-8 py-3 rounded-full font-semibold transition">
-                            Request Air Ambulance
+                            Explore All Services
                         </a>
                     </div>
                 </div>

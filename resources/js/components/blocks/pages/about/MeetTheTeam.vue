@@ -51,7 +51,7 @@ const team = [
 
     {
         name: 'Emmanuel Onwubuariri',
-        role: 'Operations Lead',
+        role: 'Operations Lead (Canada)',
         image:
             'emraph.jpeg',
         description:

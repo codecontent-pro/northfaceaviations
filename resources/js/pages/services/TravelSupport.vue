@@ -43,8 +43,7 @@ const deliverables = [
                     </div>
                 </div>
                 <div class="lg:col-span-2">
-                    <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&q=80&w=1400"
-                        alt="Travel support planning"
+                    <img src="/ticketing_2.jpeg" alt="Travel support planning"
                         class="w-full h-[420px] rounded-3xl object-cover border border-white/10" />
                 </div>
             </div>

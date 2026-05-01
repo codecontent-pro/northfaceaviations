@@ -56,8 +56,8 @@ const engagementModel = [
                     </div>
                 </div>
                 <div class="lg:col-span-5 rounded-3xl border border-white/10 overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=1600"
-                        alt="Aviation consultancy workshop" class="w-full h-[420px] object-cover" />
+                    <img src="/operational_control_2.jpeg" alt="Aviation consultancy workshop"
+                        class="w-full h-[420px] object-cover" />
                 </div>
             </div>
         </section>

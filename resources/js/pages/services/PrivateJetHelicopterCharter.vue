@@ -57,8 +57,9 @@ const advantages = [
                     <img src="https://images.unsplash.com/photo-1540962351504-03099e0a754b?auto=format&fit=crop&q=80&w=1200"
                         alt="Private jet at terminal"
                         class="col-span-2 rounded-3xl h-64 w-full object-cover border border-white/15" />
-                    <img src="https://images.unsplash.com/photo-1570710891163-6d3b5c47248b?auto=format&fit=crop&q=80&w=900"
-                        alt="Jet ready for departure"
+                    <!-- <img src="/jet_step_1.jpeg" alt="Private jet at terminal"
+                        class="col-span-2 rounded-3xl h-64 w-full object-cover border border-white/15" /> -->
+                    <img src="/inside_jet_1.jpeg" alt="Jet ready for departure"
                         class="rounded-2xl h-44 w-full object-cover border border-white/15" />
                     <div
                         class="rounded-2xl h-44 bg-slate-900/80 border border-white/10 p-5 flex flex-col justify-between">
@@ -94,8 +95,7 @@ const advantages = [
                         </li>
                     </ul>
                 </div>
-                <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&q=80&w=1400"
-                    alt="Private cabin experience"
+                <img src="/inside_jet_2.jpeg" alt="Private cabin experience"
                     class="w-full h-[380px] rounded-3xl object-cover border border-white/10" />
             </div>
         </section>

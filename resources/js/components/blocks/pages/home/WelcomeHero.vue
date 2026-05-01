@@ -89,66 +89,66 @@ import { computed, onBeforeUnmount, onMounted, ref } from 'vue';
 const slides = [
     {
         image:
-            'https://images.unsplash.com/photo-1696243144413-503bc482a608?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2071',
-        alt: 'Air ambulance helicopter on standby',
-        href: '/contact',
-        cardTitle: '24/7 Emergency Response',
-        cardText: 'Our emergency dispatch unit is on standby any time urgent support is needed.',
-        linkLabel: 'Open Contact Page',
-    },
-    {
-        image:
-            'https://images.unsplash.com/photo-1696243144337-cb0532507e9a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2071',
-        alt: 'Medical transport aircraft preparing for takeoff',
-        href: '/service',
-        cardTitle: 'Medical Transport Flights',
-        cardText: 'ICU-ready aircraft with coordinated in-flight care for critical patient transfers.',
-        linkLabel: 'View Services',
-    },
-    {
-        image:
-            'https://images.unsplash.com/photo-1696243144263-76fbba9f8d18?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2071',
-        alt: 'Air ambulance team in active response mode',
-        href: '/about',
-        cardTitle: 'Expert Aviation Team',
-        cardText: 'Experienced pilots and support specialists deliver safe and seamless operations.',
-        linkLabel: 'Learn About Us',
-    },
-    {
-        image:
             'https://images.unsplash.com/photo-1540962351504-03099e0a754b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1974',
         alt: 'Private jet prepared for premium charter service',
-        href: '/service',
+        href: '/services/private-jet-helicopter-charter',
         cardTitle: 'Premium Charter Experience',
         cardText: 'Personalized charter planning built around your schedule and destination needs.',
         linkLabel: 'Explore Charter Options',
     },
     {
         image:
-            'https://images.unsplash.com/photo-1622789093163-b00df7129dff?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2045',
-        alt: 'Ground and air team coordinating pre-flight logistics',
-        href: '/about',
-        cardTitle: 'Precision Flight Coordination',
-        cardText: 'From dispatch to landing, each mission is managed with strict safety procedures.',
-        linkLabel: 'See Our Process',
+            'https://images.unsplash.com/photo-1696243144413-503bc482a608?auto=format&fit=crop&q=80&w=1800',
+        alt: 'Air ambulance team in active response mode',
+        href: '/services/air-ambulance',
+        cardTitle: 'Expert Aviation Team',
+        cardText: 'Experienced pilots and support specialists deliver safe and seamless operations.',
+        linkLabel: 'Learn About Us',
     },
     {
         image:
-            'https://images.unsplash.com/photo-1692176961746-e3b5aeb9669a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1480',
-        alt: 'Medical and cabin team preparing passengers for departure',
-        href: '/contact',
-        cardTitle: 'Client-Focused Support',
-        cardText: 'Dedicated teams handle your travel details so your journey stays smooth and stress-free.',
-        linkLabel: 'Talk to Our Team',
+            '/ticketing_1.jpeg',
+        alt: 'Flight tickets and travel documents on a table',
+        href: '/services/travel-support',
+        cardTitle: 'Hassle-Free Ticketing',
+        cardText: 'We handle your flight bookings, travel documents, and itinerary so you can simply show up and fly.',
+        linkLabel: 'Explore Travel Support',
     },
     {
         image:
-            'https://images.unsplash.com/photo-1695686017922-cd11e76d6f95?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1035',
-        alt: 'Aircraft operations in active service window',
-        href: '/service',
-        cardTitle: 'Reliable Mission Readiness',
-        cardText: 'Our fleet remains mission-ready for planned and urgent flights across regions.',
-        linkLabel: 'Discover More Services',
+            '/cargo_4.jpeg',
+        alt: 'Cargo aircraft loaded and ready for freight dispatch',
+        href: '/services/air-cargo',
+        cardTitle: 'Reliable Air Cargo',
+        cardText: 'Swift and secure freight handling from pickup to delivery, across domestic and international routes.',
+        linkLabel: 'Explore Cargo Services',
+    },
+    {
+        image:
+            '/craft_management_2.jpeg',
+        alt: 'Aircraft maintenance and fleet management operations',
+        href: '/services/aircraft-management',
+        cardTitle: 'Comprehensive Aircraft Management',
+        cardText: 'Full-service fleet maintenance, scheduling, and operations management.',
+        linkLabel: 'Explore Aircraft Management',
+    },
+    {
+        image:
+            '/operational_control_1.jpeg',
+        alt: 'Operations team managing flight dispatch and control procedures',
+        href: '/services/aviation-consultancy',
+        cardTitle: 'Operational Control & Oversight',
+        cardText: 'End-to-end flight operations control — from dispatch coordination to real-time monitoring and compliance.',
+        linkLabel: 'Explore Operational Services',
+    },
+    {
+        image:
+            '/jet_lease.jpeg',
+        alt: 'Aviation consultant advising on strategy and regulatory compliance',
+        href: '/services/aviation-consultancy',
+        cardTitle: 'Aviation Consultancy',
+        cardText: 'Strategic aviation advice covering regulatory compliance, safety audits, and operational efficiency.',
+        linkLabel: 'Explore Consultancy Services',
     },
 ];
 
