@@ -101,8 +101,9 @@ import PagesController from "@/actions/App/Http/Controllers/PagesController";
                         </li>
                         <li class="flex items-start gap-2">
                             <i class="fa-solid fa-location-dot text-orange-500 mt-1 shrink-0"></i>
-                            <span><span class="text-gray-300 font-medium">Nasarawa State Office:</span><br />No. 5 Esson
-                                Mairiga Street, Lafia, Nasarawa State</span>
+                            <span><span class="text-gray-300 font-medium">Nasarawa State Office:</span><br />No. 3
+                                Mahafa's
+                                Plaza, Linking Tudun Kauri, Lafia, Nasarawa State</span>
                         </li>
                         <li class="flex items-center gap-2">
                             <i class="fa-solid fa-phone text-orange-500 shrink-0"></i>

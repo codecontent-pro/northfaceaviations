@@ -12,8 +12,8 @@ import Jetcharter from '@/components/blocks/pages/home/Jetcharter.vue';
     <PagesLayout>
         <HeroSection />
         <WhyChooseUs />
-        <TrustSection />
         <Jetcharter />
+        <TrustSection />
         <HowItWorks />
         <Testimonial />
     </PagesLayout>

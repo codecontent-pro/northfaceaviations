@@ -44,8 +44,7 @@ const assurance = [
                         </div>
                     </div>
                     <div class="lg:col-span-5">
-                        <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&q=80&w=1600"
-                            alt="Cargo loading operation"
+                        <img src="/cargo_1.jpeg" alt="Cargo loading operation"
                             class="w-full h-[360px] object-cover rounded-3xl border border-white/15" />
                     </div>
                 </div>
@@ -78,8 +77,8 @@ const assurance = [
                     </ul>
                 </div>
                 <div class="lg:col-span-3 rounded-3xl overflow-hidden border border-white/10">
-                    <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=1600"
-                        alt="Global cargo transfer planning" class="w-full h-[420px] object-cover" />
+                    <img src="/cargo_2.jpeg" alt="Global cargo transfer planning"
+                        class="w-full h-[420px] object-cover" />
                 </div>
             </div>
         </section>

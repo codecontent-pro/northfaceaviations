@@ -22,8 +22,8 @@
                         “{{ testimonial.quote }}”
                     </p>
                     <div class="flex items-center gap-4">
-                        <img :src="testimonial.image" :alt="testimonial.name"
-                            class="w-12 h-12 rounded-full object-cover border border-gray-600" />
+                        <!-- <img :src="testimonial.image" :alt="testimonial.name"
+                            class="w-12 h-12 rounded-full object-cover border border-gray-600" /> -->
                         <div class="text-left">
                             <h4 class="text-white font-semibold">{{ testimonial.name }}</h4>
                             <p class="text-gray-500 text-sm">{{ testimonial.role }}</p>
@@ -42,25 +42,25 @@
 const testimonials = [
     {
         quote:
-        'When my father fell ill in Ghana, Northstar Aviation Solutions Ltd responded immediately. The professionalism and care during the flight were world-class.',
-        name: 'Sarah Williams',
-        role: 'Family Member, UK',
+            'Our patient suffered a stroke and needed specialist care back home in Owerri. Northstar Aviation Solutions Ltd arranged a medical flight from London within hours. The onboard nurse monitored his vitals throughout, and he arrived safely and stabilised. We are forever grateful.',
+        name: 'Tasleem Dilloo',
+        role: 'CEO, Overseas Medical Care Assistance LTD',
         image:
             'https://images.unsplash.com/photo-1502685104226-ee32379fefbe?auto=format&fit=crop&w=400&q=80',
     },
     {
         quote:
-            'The team handled a complex medical evacuation from Abuja with precision. Their pilots and medics are simply the best in the industry.',
-        name: 'Dr. Ahmed Musa',
-        role: 'Partner Hospital Director, Nigeria',
+            'I have lost count of how many times I have called Northstar Aviation Solutions Ltd at short notice and they have never once let me down. Whether it is a last-minute board meeting in Abuja or an overnight trip to Lagos, they always have a jet ready and a crew that makes you feel like the only passenger in the sky. That kind of reliability is why we keep coming back.',
+        name: 'Chief Chukwuemeka Ituma',
+        role: 'MD/CEO , Enviable Group.',
         image:
             'https://images.unsplash.com/photo-1595152772835-219674b2a8a6?auto=format&fit=crop&w=400&q=80',
     },
     {
         quote:
-            'From coordination to landing, every step was smooth. It felt like being in safe hands throughout the journey.',
-        name: 'John Peterson',
-        role: 'Evacuation Patient, Dubai',
+            'Northstar Aviation Solutions Ltd takes the stress out of travel completely. I simply tell them where I need to be and when, and they handle everything — reservations, tickets, seat preferences, even connecting flights. I have never missed a flight since I started using them. They are not just a booking service; they are a travel partner you can trust.',
+        name: 'Aminu Dankaka',
+        role: 'Frequent Traveller, Nigeria',
         image:
             'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80',
     },

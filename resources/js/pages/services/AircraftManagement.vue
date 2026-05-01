@@ -42,8 +42,8 @@ const services = [
                     </div>
                 </div>
                 <div class="rounded-3xl overflow-hidden border border-white/10">
-                    <img src="https://images.unsplash.com/photo-1580848063133-8011f8c8f7c1?auto=format&fit=crop&q=80&w=1500"
-                        alt="Aircraft operations and management" class="w-full h-[320px] object-cover" />
+                    <img src="/craft_management_2.jpeg" alt="Aircraft operations and management"
+                        class="w-full h-[320px] object-cover" />
                 </div>
             </div>
         </section>

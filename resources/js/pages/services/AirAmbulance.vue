@@ -129,8 +129,7 @@ const trustPoints = [
         <section class="bg-slate-950 text-white px-6 md:px-16 py-20">
             <div class="max-w-7xl mx-auto grid lg:grid-cols-5 gap-10 items-center">
                 <div class="lg:col-span-2">
-                    <img src="https://images.unsplash.com/photo-1622789093163-b00df7129dff?auto=format&fit=crop&q=80&w=1800"
-                        alt="Medical support team preparing an air ambulance mission"
+                    <img src="/jet_air_ambulance.jpeg" alt="Medical support team preparing an air ambulance mission"
                         class="w-full h-[520px] object-cover rounded-3xl border border-white/10" />
                 </div>
 
