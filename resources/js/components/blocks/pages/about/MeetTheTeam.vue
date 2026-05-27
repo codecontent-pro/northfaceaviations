@@ -11,7 +11,7 @@
             </p>
 
             <!-- Team Grid -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 mx-auto lg:grid-cols-3 gap-10">
+            <div class="grid grid-cols-1 sm:grid-cols-2 mx-auto lg:grid-cols-4 gap-10">
                 <div v-for="member in team" :key="member.name"
                     class="bg-gradient-to-b from-gray-900 to-gray-800 border border-gray-700 rounded-2xl overflow-hidden hover:shadow-2xl hover:shadow-orange-900/30 transition-all duration-300">
                     <img :src="member.image" :alt="member.name"
@@ -32,13 +32,14 @@
 
 <script setup>
 const team = [
+
     {
-        name: 'Vincent Onuh',
-        role: 'Administration & Legal Affairs',
+        name: 'Walid Ibrahim suleiman',
+        role: 'Chief Operating Officer',
         image:
-            'Vincent.JPEG',
+            'pilot_one.jpeg',
         description:
-            'Vincent Onuh is a qualified Barrister and Solicitor specializing in public and private law and conflict resolution. He utilizes alternative dispute resolution (ADR) techniques to ensure timely justice delivery and foster community stability. His commitment to peacebuilding and social justice drives innovative, inclusive approaches to promoting liberty and equity across diverse contexts',
+            'A South African trained Pilot with rating on the Embrear 145. From the cockpit to the boardroom, precision drives everything. He brings the same focus, discipline, and calm decision- making of aviation to Northstar aviation. As COO, I ensures operations run smoothly, teams perform at their best, and strategic goals are always on course—keeping the company soaring toward success.',
     },
     {
         name: 'Akolade Esther',
@@ -48,7 +49,14 @@ const team = [
         description:
             'Akola Esther combines a BSc in Business Administration with experience as a licensed cabin crew member to offer analytical expertise and exceptional service. Her background has cultivated strong interpersonal skills, attention to detail, and resourcefulness under pressure',
     },
-
+    {
+        name: 'Vincent Onuh',
+        role: 'Administration & Legal Affairs',
+        image:
+            'Vincent.JPEG',
+        description:
+            'Vincent Onuh is a qualified Barrister and Solicitor specializing in public and private law and conflict resolution. He utilizes alternative dispute resolution (ADR) techniques to ensure timely justice delivery and foster community stability. His commitment to peacebuilding and social justice drives innovative, inclusive approaches to promoting liberty and equity across diverse contexts',
+    },
     {
         name: 'Emmanuel Onwubuariri',
         role: 'Operations Lead (Canada)',
@@ -57,6 +65,7 @@ const team = [
         description:
             'Emmanuel Onwubuariri is a seasoned aviation professional with over 10 years of experience in flight operations and safety management. His expertise in aviation operations, coupled with a strong commitment to safety and efficiency, ensures that every flight meets the highest standards of excellence.',
     },
+
 
 ];
 </script>
