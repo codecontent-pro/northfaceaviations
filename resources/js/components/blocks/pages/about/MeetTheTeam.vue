@@ -11,11 +11,11 @@
             </p>
 
             <!-- Team Grid -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 mx-auto lg:grid-cols-4 gap-10">
+            <div class="grid grid-cols-1 sm:grid-cols-2 mx-auto lg:grid-cols-3 gap-10">
                 <div v-for="member in team" :key="member.name"
                     class="bg-gradient-to-b from-gray-900 to-gray-800 border border-gray-700 rounded-2xl overflow-hidden hover:shadow-2xl hover:shadow-orange-900/30 transition-all duration-300">
                     <img :src="member.image" :alt="member.name"
-                        class="w-full h-64 object-cover grayscale hover:grayscale-0 transition duration-300" />
+                        class="w-full h-96 object-cover grayscale hover:grayscale-0 transition duration-300" />
                     <div class="p-6">
                         <h3 class="text-lg font-semibold text-white">{{ member.name }}</h3>
                         <p class="text-orange-300 text-sm mb-3 font-medium">{{ member.role }}</p>
@@ -64,6 +64,22 @@ const team = [
             'emraph.jpeg',
         description:
             'Emmanuel Onwubuariri is a seasoned aviation professional with over 10 years of experience in flight operations and safety management. His expertise in aviation operations, coupled with a strong commitment to safety and efficiency, ensures that every flight meets the highest standards of excellence.',
+    },
+    {
+        name: 'Dr. Osondu Nnajiofor',
+        role: 'Clinical Director & Air Ambulance Lead',
+        image:
+            'peter_michael.jpeg',
+        description:
+            'A distinguished physician and healthcare administrator with a proven track record across West Africa. From high-stakes emergency medicine to global medical tourism, precision and seamless coordination drive his approach. As Clinical Director and Air Ambulance Lead, he blends advanced clinical expertise with rigorous operational standards to ensure every aeromedical evacuation is executed safely, ethically, and at world-class levels — keeping Northstar Aviation at the absolute forefront of lifesaving patient care.',
+    },
+    {
+        name: 'Mr Peter Michael ',
+        role: 'Operations Head (Nigeria)',
+        image:
+            'osondu_Nnajiofor.jpeg',
+        description:
+            'Peter is a versatile and results-driven professional with experience in aviation operations, customer service, administrative coordination, and business development. With a strong background in airline operations and over two years of experience in flight dispatch, he has built a reputation for professionalism, attention to detail, effective communication, and a commitment to excellence. Passionate about continuous growth and delivering high standards in every role, Peter brings a solution- oriented mindset and a dedication to teamwork, efficiency, and exceptional service.',
     },
 
 
