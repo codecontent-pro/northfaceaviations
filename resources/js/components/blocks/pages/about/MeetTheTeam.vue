@@ -69,7 +69,7 @@ const team = [
         name: 'Dr. Osondu Nnajiofor',
         role: 'Clinical Director & Air Ambulance Lead',
         image:
-            'peter_michael.jpeg',
+            'Osondu_Nnajiofor.jpeg',
         description:
             'A distinguished physician and healthcare administrator with a proven track record across West Africa. From high-stakes emergency medicine to global medical tourism, precision and seamless coordination drive his approach. As Clinical Director and Air Ambulance Lead, he blends advanced clinical expertise with rigorous operational standards to ensure every aeromedical evacuation is executed safely, ethically, and at world-class levels — keeping Northstar Aviation at the absolute forefront of lifesaving patient care.',
     },
@@ -77,7 +77,7 @@ const team = [
         name: 'Mr Peter Michael ',
         role: 'Operations Head (Nigeria)',
         image:
-            'osondu_Nnajiofor.jpeg',
+            'peter_michael.jpeg',
         description:
             'Peter is a versatile and results-driven professional with experience in aviation operations, customer service, administrative coordination, and business development. With a strong background in airline operations and over two years of experience in flight dispatch, he has built a reputation for professionalism, attention to detail, effective communication, and a commitment to excellence. Passionate about continuous growth and delivering high standards in every role, Peter brings a solution- oriented mindset and a dedication to teamwork, efficiency, and exceptional service.',
     },
